@@ -717,7 +717,7 @@ module.exports = {
                                 gpname: await this.getName(id),
                                 member: groupMetadata.participants.length, 
                                 pp: pp, 
-                                bg: 'https://cdn.discordapp.com/attachments/850808002545319957/859359637106065408/bg.png',
+                                bg: 'https://cdn.discordapp.com/attachments/920955351925411841/1097272068023799988/bg.png',
                                 apikey: 'Admin'
                             })
                             let lea = API('tio', '/api/maker/goodbye1', {
@@ -725,7 +725,7 @@ module.exports = {
                                 gpname: await this.getName(id),
                                 member: groupMetadata.participants.length, 
                                 pp: pp,
-                                bg: 'https://cdn.discordapp.com/attachments/850808002545319957/859359637106065408/bg.png',
+                                bg: 'https://cdn.discordapp.com/attachments/920955351925411841/1097272068023799988/bg.png',
                                 apikey: 'Admin'
                             })
                              this.sendFile(id, action === 'add' ? wel : lea, 'pp.jpg', text, null, false, { mentions: [user] })
@@ -774,7 +774,7 @@ global.dfail = (type, m, conn) => {
         private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
         admin: 'Perintah ini hanya untuk *Admin* grup!',
         botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
-        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Mansur.16*',
+        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Andi.23*',
         restrict: 'Fitur ini di *disable*!'
     }[type]
     if (msg) return m.reply(msg)
