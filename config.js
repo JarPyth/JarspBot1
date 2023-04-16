@@ -6,31 +6,31 @@ untuk lainya saran jangan
 di ubah bre nanti eror]]*/
 
 /*global owner*/
-global.owner = ['6281395861695']  
-global.mods = ['6281395861695'] 
-global.prems = ['6281395861695']
+global.owner = ['6282148864989']  
+global.mods = ['6282148864989'] 
+global.prems = ['6282148864989']
 /*Nomor Owner & payment*/
-global.nameowner = 'Tio'
-global.numberowner = '6281395861695' 
-global.mail = 'tioclkp02@gmail.com' //enter your email 🗿
-global.dana = '6281395861695'
-global.pulsa = '6281395861695'
-global.gopay = '6281395861695'
+global.nameowner = 'Jarspy'
+global.numberowner = '6282148864989' 
+global.mail = 'renfunix@gmail.com' //enter your email 🗿
+global.dana = '6282148864989'
+global.pulsa = '6282148864989'
+global.gopay = '6282148864989'
 /*Nama Bot & Grouplink*/
-global.namebot = 'RTXZY-MD'
-global.gc = 'https://chat.whatsapp.com/Ln2vHjRrRayAbzalRMB56r'
-global.web = 'https://github.com/BOTCAHX'
-global.instagram = 'https://instagram.com/prm2.0'
+global.namebot = 'JarspBot'
+global.gc = 'https://chat.whatsapp.com/BBOQYmoHTuIHDBMvisfd9A'
+global.web = 'https://github.com/NDIIESC'
+global.instagram = 'https://instagram.com/renfunix'
 /*global wm*/
 global.lolkey = 'rey2k22'
 global.zenzkey = 'BagasPrdn'
 global.btc = 'Admin'
-global.apikeyaAi = 'ISI_API_OPENAI_DI_SINI' //fill apikey openai here (register https://beta.openai.com/)
-global.wm = '© R-TXZY-MD'
+global.apikeyaAi = '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' //fill apikey openai here (register https://beta.openai.com/)
+global.wm = '© JarspBot'
 global.watermark = wm
-global.wm2 = '⫹⫺ R-TXZY-MD'
-global.wm3 = '© R-TXZY-MD'
-global.wm4 = '© BOT RTXZY'
+global.wm2 = '⫹⫺ JarspBot'
+global.wm3 = '© JarspBot'
+global.wm4 = '© JarspBot'
 global.fla = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text='
 global.wait = '_*Tunggu sedang di proses...*_'
 global.eror = '_*Server Error*_'
@@ -38,7 +38,7 @@ global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = '*⫹⫺ Stiker sedang dibuat...*'
 global.packname = 'Made with'
-global.author = 'Bot WhatsApp\nR-TXZY-MD'
+global.author = 'Bot WhatsApp\nJarspBot'
 /*Rest api setting*/
 global.APIs = { // API Prefix
   // name: 'https://website'
