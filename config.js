@@ -19,7 +19,7 @@ global.gopay = '6282148864989'
 /*Nama Bot & Grouplink*/
 global.namebot = 'JarspBot'
 global.gc = 'https://chat.whatsapp.com/BBOQYmoHTuIHDBMvisfd9A'
-global.web = 'https://github.com/NDIIESC'
+global.web = 'https://github.com/JarPyth'
 global.instagram = 'https://instagram.com/renfunix'
 /*global wm*/
 global.lolkey = 'rey2k22'
