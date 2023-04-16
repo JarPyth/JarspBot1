@@ -4,10 +4,10 @@ conn,
 args 
 }) => {
    response = args.join(' ').split('|')
-  if (!args[0]) throw 'Masukkan Text\nContoh : .pubg BOTCAHX'
+  if (!args[0]) throw 'Masukkan Text\nContoh : .pubg CAHX'
   m.reply('_Proses..._')
   var res = `https://api.botcahx.biz.id/api/photooxy/pubg?text=Pubg&text2=${response[0]}&apikey=Admin`
-  conn.sendFile(m.chat, res, 'botcahx.jpg', `© BOTCAHX`, m, false)
+  conn.sendFile(m.chat, res, 'botcahx.jpg', `© JarspBot`, m, false)
 }
 handler.help = ['pubg'].map(v => v + ' <text>')
 handler.tags = ['photooxy']
