@@ -4,10 +4,10 @@ conn,
 args 
 }) => {
    response = args.join(' ').split('|')
-  if (!args[0]) throw 'Masukkan Text\nContoh : . harrypoter BOTCAHX'
+  if (!args[0]) throw 'Masukkan Text\nContoh : . harrypoter CAHX'
   m.reply('_Proses..._')
   var res = `https://api.botcahx.biz.id/api/photooxy/harry-potter?text=${response[0]}&apikey=Admin`
-  conn.sendFile(m.chat, res, 'botcahx.jpg', `© BOTCAHX`, m, false)
+  conn.sendFile(m.chat, res, 'botcahx.jpg', `© JarspBot`, m, false)
 }
 handler.help = ['harrypoter'].map(v => v + ' <text>')
 handler.tags = ['photooxy'];
