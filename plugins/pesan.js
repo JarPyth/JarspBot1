@@ -1,8 +1,8 @@
 let handler = async(m, { conn, text, usedPrefix }) => {
 let [number, pesan] = text.split `|`
 
-    if (!number) return conn.reply(m.chat, 'Silahkan masukan nomor yang akan dikirim\n_Contoh : .pesan 6281395861695|Halo Bang_', m)
-    if (!pesan) return conn.reply(m.chat, 'Silahkan masukan pesannya\n_Contoh : .pesan 6281395861695|Halo Bang_', m)
+    if (!number) return conn.reply(m.chat, 'Silahkan masukan nomor yang akan dikirim\n_Contoh : .pesan 6282148864989|Halo Bang_', m)
+    if (!pesan) return conn.reply(m.chat, 'Silahkan masukan pesannya\n_Contoh : .pesan 6282148864989|Halo Bang_', m)
     if (text > 500) return conn.reply(m.chat, 'Teks Kepanjangan!', m)
     
     let user = global.db.data.users[m.sender]
