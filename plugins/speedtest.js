@@ -17,7 +17,7 @@ contextInfo: {
 externalAdReply: {
 title: "",
 body: "",
-thumbnailUrl: "https://telegra.ph/file/ec8cf04e3a2890d3dce9c.jpg",
+thumbnailUrl: "https://telegra.ph/file/c23b794f4da1bc23b6f00.jpg",
 sourceUrl: "",
 mediaType: 1,
 renderLargerThumbnail: true
