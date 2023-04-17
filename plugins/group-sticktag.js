@@ -12,7 +12,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   if (/webp/.test(mime)) {
     out = await webp2png(media)
   }
-  conn.sendImageAsSticker(m.chat, out, m, { packname: "sticker by", author: "Hyzer" }, mentions: participants.map(a => a.id))
+  conn.sendImageAsSticker(m.chat, out, m, { packname: "sticker by", author: "JarspBot" }, mentions: participants.map(a => a.id))
   })
 }
 handler.help = ['stickertag', 'sticktag']
