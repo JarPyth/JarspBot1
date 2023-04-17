@@ -25,7 +25,7 @@ let handler = async (m, { conn, usedPrefix, owner }) => {
             let _psenjata = `${pickRandom(['1', '0', '0', '0'])}`
            let psenjata = (_psenjata * 1)
         
-        let gggd = 'https://telegra.ph/file/4a2dad6f0f6dfef650bf3.jpg'   
+        let gggd = 'https://telegra.ph/file/6482bff9a897674199bd8.jpg'   
         let mcng = `
 *Your 🎣Fishing Results!*
         
