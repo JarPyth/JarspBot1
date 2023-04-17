@@ -27,7 +27,7 @@ ${sortedLim.slice(0, len).map(({ jid, limit }, i) => `├ ${i + 1}. ${participan
 │
 ${sortedLevel.slice(0, len).map(({ jid, level }, i) => `├ ${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *Level ${level}*`).join`\n`}
 └────`.trim()
-  m.reply('*Tunggu Sebentar Proses Pengambilan Data...*\n\n*Hati-Hati Ngelag!*\n\n> *「© 2022」* <')
+  m.reply('*Tunggu Sebentar Proses Pengambilan Data...*\n\n*Hati-Hati Ngelag!*\n\n> *「© 2023」* <')
   m.reply(text)
   await conn.sendFile(m.chat, vn, 'rpg.opus', null, m, true, {
   type: 'audioMessage', 
