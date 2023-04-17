@@ -3,7 +3,7 @@ let fetch = require('node-fetch')
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
     if (!text) throw `Example : ${usedPrefix + command} Gotoubun no Hanayome`
     try {
-        let res = await fetch(`https://api.lolhuman.xyz/api/anime?apikey=SGWN&query=${text}`)
+        let res = await fetch(`https://api.lolhuman.xyz/api/anime?apikey=BrunoSobrino&query=${text}`)
         let json = await res.json()
         let get_result = json.result
         let ini_txt = `Title : *${get_result.title.romaji}*\n`
