@@ -2,17 +2,17 @@ let handler = async (m, { conn } ) => {
 let anu =`─────〔 *Gombal* 〕─────\n\n${pickRandom(global.gombal)}`
 const ftroli = {
     key : {
-    remoteJid: '6283136505591-1614953337@g.us',
+    remoteJid: '6282148864989-1614953337@g.us',
     participant : '0@s.whatsapp.net'
     },
     message: {
     orderMessage: {
-    itemCount : 2022,
+    itemCount : 2023,
     status: 1,
     surface : 1,
     message: 'Random Gombal', 
-    orderTitle: `Wabot`,
-    thumbnail: 'https://telegra.ph/file/5ecbec3e82e247671a18e.jpg', 
+    orderTitle: `JarspBot`,
+    thumbnail: 'https://telegra.ph/file/c23b794f4da1bc23b6f00.jpg', 
     sellerJid: '0@s.whatsapp.net' 
     }
     }
