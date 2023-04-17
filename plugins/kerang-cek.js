@@ -1,5 +1,5 @@
 let handler = async (m, { conn, usedPrefix, command, text }) => { 
-let memek = 'https://telegra.ph/file/1aa347ff346c2bf5ee181.jpg'
+let memek = 'https://telegra.ph/file/c23b794f4da1bc23b6f00.jpg'
 let anu =`
 ────〔 *${command}* 〕────
 
