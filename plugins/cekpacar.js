@@ -32,7 +32,7 @@ let handler = async (m, { conn, text }) => {
   }
 
   if (typeof global.db.data.users[global.db.data.users[user].pasangan] == "undefined" && global.db.data.users[user].pasangan != ""){
-    return m.reply("*Pacar/gebetan target tidak terdaftar di ArieTube bot.*")
+    return m.reply("*Pacar/gebetan target tidak terdaftar di Bot.*")
   }
 
   if (global.db.data.users[user].pasangan == "") {
