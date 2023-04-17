@@ -4,8 +4,8 @@ let handler = async (m, { conn, args }) => {
   if (!args[0]) throw 'Masukkan Parameter'
   m.reply('Sedang Diproses...')
   // https://api.lolhuman.xyz/api/photooxy2/pubg?apikey=beta&text1=LoL&text2=Human
-  let res = await fetch(`https://lolhuman.herokuapp.com/api/photooxy2/battlefield4?apikey=Dawnfrostkey&text1=${response[0]}&text2=${response[1]}`)
-  conn.sendFile(m.chat, res, 'nama.jpg', `Nih Mhank`, m, false)
+  let res = await fetch(`https://lolhuman.herokuapp.com/api/photooxy2/battlefield4?apikey=BrunoSobrino&text1=${response[0]}&text2=${response[1]}`)
+  conn.sendFile(m.chat, res, 'nama.jpg', `Nih`, m, false)
 }
 handler.help = ['battlefield'].map(v => v + ' <teks|teks>')
 handler.tags = ['sticker']
