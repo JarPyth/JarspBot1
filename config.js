@@ -22,7 +22,7 @@ global.gc = 'https://chat.whatsapp.com/BBOQYmoHTuIHDBMvisfd9A'
 global.web = 'https://github.com/JarPyth'
 global.instagram = 'https://instagram.com/renfunix'
 /*global wm*/
-global.lolkey = 'rey2k22'
+global.lolkey = 'BrunoSobrino'
 global.zenzkey = 'BagasPrdn'
 global.btc = 'Admin'
 global.apikeyaAi = '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' //fill apikey openai here (register https://beta.openai.com/)
