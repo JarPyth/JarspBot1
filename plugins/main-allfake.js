@@ -20,7 +20,7 @@ key: {
 						"jpegThumbnail": fs.readFileSync('./media/thumbnail.jpg') //Gambarnya
 					},
 					"title": wm, //Kasih namalu 
-					"description": "Botcahx", 
+					"description": "JarspBot", 
 					"currencyCode": "USD",
 					"priceAmount1000": "2000",
 					"retailerId": "Ghost",
@@ -142,7 +142,7 @@ global.fgclink = {
 			"groupJid": "0-1625305606@g.us",
 			"inviteCode": "mememteeeekkeke",
 			"groupName": "Mengter", 
-            "caption": "Halo bang jagoo", 
+            "caption": "Hello World", 
             'jpegThumbnail': fs.readFileSync('./media/thumbnail.jpg')
 		}
 	}
@@ -156,11 +156,11 @@ global.fgif = {
                 },
 	 message: { 
                  "videoMessage": { 
-                 "title":"hallo bang",
+                 "title":"Hello World",
                  "h": `Hmm`,
                  'seconds': '99999', 
                  'gifPlayback': 'true', 
-                 'caption': 'Halo bang',
+                 'caption': 'Hello World',
                  'jpegThumbnail': fs.readFileSync('./media/thumbnail.jpg')
                         }
                        }
@@ -174,7 +174,7 @@ global.ftextt = {
                 },
 	 message: { 
 		"extendedTextMessage": {
-                 "text":"hallo bang",
+                 "text":"Hello World",
                  "title": `Hmm`,
                  'jpegThumbnail': fs.readFileSync('./media/thumbnail.jpg')
                         }
