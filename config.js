@@ -58,7 +58,7 @@ global.APIKeys = { // APIKey Here
   'https://pencarikode.xyz': 'pais', 
   'https://zekais.com': 'apikeymu',
   'https://api.botcahx.biz.id': 'Admin', //daftar sendiri kalo abis
-  'https://api.lolhuman.xyz': 'Deffbotz',
+  'https://api.lolhuman.xyz': 'BrunoSobrino',
 }
 
 /*Setting Rpg*/
