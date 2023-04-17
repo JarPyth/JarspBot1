@@ -9,7 +9,7 @@ let handler = async(m, { conn, text }) => {
     let json = await res.json()
     if (res.status !== 200) throw await res.text()
     if (!json.status) throw json
-    let thumb = await (await fetch(`http://lolhuman.herokuapp.com/api/gimage?apikey=lolapikey&query=${text}`)).buffer()
+    let thumb = await (await fetch(`http://lolhuman.herokuapp.com/api/gimage?apikey=BrunoSobrino&query=${text}`)).buffer()
     let data = json.data
     let index = Math.floor(Math.random() * data.length)
     let object = data[index]
