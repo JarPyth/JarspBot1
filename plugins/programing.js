@@ -1,12 +1,12 @@
-let fetch = require("node-fetch")
+import fetch from "node-fetch"
 let handler = async (m, usedPrefix, command) => {
- let g = await fetch(`https://raw.githubusercontent.com/inirey/RESTAPI/master/data/Programming.json`)
+let g = await fetch(`https://raw.githubusercontent.com/inirey/RESTAPI/master/data/Programming.json`)
 let f = await g.json()
 let a = f[Math.floor(Math.random() * f.length)]
-conn.sendButtonImg(m.chat, a, "Random Image", "Wallpaper Programming", 'Next', ".wpprograming", m)
+conn.sendFile(m.chat, a, "Wallpaper Programming", m)
 }
-handler.help = ['wpprograming']
-handler.tags = ['image']
-handler.command = /^wpprogramming$/i
+handler.help = ['programming']
+handler.tags = ['internet']
+handler.command = /^programming$/i
 
-module.exports = handler
+export default handler
